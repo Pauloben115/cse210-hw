@@ -31,6 +31,7 @@ class Program
                     string response = Console.ReadLine();
 
                     journal.AddEntry(new Entry { Date = date, Prompt = prompt, Response = response });
+                    Console.WriteLine("Entry added.\n");
                     break;
 
                 case "2":
