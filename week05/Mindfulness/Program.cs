@@ -2,8 +2,13 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello World! This is the Mindfulness Project.");
+        BreathingActivity breathing = new BreathingActivity();
+        breathing.Start();
+
+        Console.WriteLine("Press any key to exit.");
+        Console.ReadKey();
     }
 }
+
